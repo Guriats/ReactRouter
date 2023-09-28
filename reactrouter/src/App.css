@@ -1,1 +1,22 @@
 
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.Navegador{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.active{
+   
+    color: orange;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

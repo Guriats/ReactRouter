@@ -1,0 +1,4 @@
+.heroes{
+    display:grid;
+    place-items: center;
+}
