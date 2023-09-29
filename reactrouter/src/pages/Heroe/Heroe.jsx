@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import HeroeDetail from '../components/HeroeDetail';
-import { getHeroe, deleteHeroe } from '../data/data';
+import HeroeDetail from '../../components/HeroeDetail/HeroeDetail';
+import { getHeroe, deleteHeroe } from '../../data/data';
 export default function Heroe() {
 const params = useParams();
 const navigate = useNavigate();
